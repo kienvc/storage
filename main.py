@@ -31,7 +31,7 @@ import webapp2
 
 
 # The bucket that will be used to list objects.
-BUCKET_NAME = '<your-bucket-name>'
+BUCKET_NAME = 'storage-165401.appspot.com'
 
 storage = googleapiclient.discovery.build('storage', 'v1')
 
